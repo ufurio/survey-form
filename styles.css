@@ -1,0 +1,90 @@
+body
+{
+    text-align: left;
+    color: white;
+    background-image: linear-gradient(to bottom, rgba(108, 76, 54,0.3), rgba(108, 76, 54,0.3)), url('./images/coffee2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header
+{
+    text-align: center;
+}
+
+.container
+{
+    background-image: linear-gradient(125deg, rgba(220, 166, 33, .85), rgba(183, 133, 13, 0.85), rgba(108, 76, 54, 0.85), rgba(62, 50, 50, 0.85));
+    display: flex;
+    justify-content: center;
+    margin: 1.25rem auto 1.25rem auto;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 1rem;
+}
+
+label
+{
+    display: flex;
+    margin: 1.25em auto 1.25em auto;
+    width: 100%;
+    height: auto;
+    padding: auto 1.25rem auto 1.25rem;
+   
+}
+
+form 
+{
+    padding: 1.25rem;
+}
+
+textarea 
+{
+    margin: 0;
+    margin-bottom: 1.25rem;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 100%;
+    height: auto;
+}
+
+button
+{
+    width: 100%;
+    height: auto;
+}
+
+#name-label, #email-label, #age-label
+{
+    text-align: left;
+    
+}
+
+.input-text, #dropdown
+{
+    width: 100%;
+}
+
+#radio-label
+{
+    display: inline;
+    margin-right: 1.25rem;
+}
+
+#title
+{
+    font-size: 2.5rem;
+    font-family: poppins;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#description
+{
+    font-size: 2rem;
+    font-family: sans-serif;
+    margin: 0;
+}

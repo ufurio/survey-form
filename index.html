@@ -1,0 +1,88 @@
+<html>
+    <link rel= "stylesheet" href = "styles.css" >
+
+<body>
+    <header class="header">
+    
+        <h1 id="title">"How do you like you coffee?"</h1>
+        <p id="description">Survey Form</p>
+
+    </header>
+
+    <div class="container">
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+        <form id="survey-form">
+
+            <div class = "form">
+                <label id="name-label" for="name">Name</label>
+                    <input type="text" name="name" id="name" class="input-text" placeholder="Enter you name" required>
+                <label id="email-label" for="email">Email</label> 
+                    <input type="email" name="email" id="email" class="input-text" placeholder="Enter your email" required>
+                <label id="number-label" for="age">Age</label>
+                    <input type="number" name="age" id="number" class="input-text" min=10 max=90 placeholder="Enter your age" required>
+            </div>
+
+            <div class="form">
+                <p>How many cups of coffee do you drink per day?</p>
+                <label for="cups-of-coffee" id="radio-label">
+                    <input type="radio" name="cups-of-coffee" value="1" id="input-radio">1</label>
+                <label for="cups-of-coffee" id="radio-label">
+                    <input type="radio" name="cups-of-coffee" value="2" id="input-radio">2</label>
+                <label for="cups-of-coffee" id="radio-label">    
+                    <input type="radio" name="cups-of-coffee" value="3" id="input-radio">3</label>
+                <label for="cups-of-coffee" id="radio-label">
+                    <input type="radio" name="cups-of-coffee" value="4" id="input-radio">4</label>
+                <label for="cups-of-coffee" id="radio-label">
+                    <input type="radio" name="cups-of-coffee" value="5" id="input-radio">5</label>
+                <label for="cups-of-coffee" id="radio-label">
+                    <input type="radio" name="cups-of-coffee" value="6" id="input-radio">6</label>
+            </div>
+
+            <div class="form">
+                <p>What kind of coffee do you prefer?</p>
+                <select id="dropdown" name="coffee">
+                    <option value="Decaf">Decaf</option>
+                    <option value="Black">Black</option>
+                    <option value="Sweetened">Sweetened</option>
+                    <option value="Unsweetened">Unsweetened</option>
+                </select> 
+            </div>
+
+            <div class="form">
+                <p>What would you prefer?
+                  <span class="clue">(Check all that apply)</span>
+                </p>
+          
+                <label>
+                    <input name="brewed-coffee" value="brewed-coffee" type="checkbox" class="input-checkbox">Brewed coffee</label>
+                <label>
+                    <input name="espresso" value="espresso" type="checkbox" class="input-checkbox">Espresso</label>
+                <label>
+                    <input name="macchiatto" value="macchiatto" type="checkbox" class="input-checkbox">Macchiatto</label>
+                <label>
+                    <input name="cappuccino" value="cappuccino" type="checkbox" class="input-checkbox">Cappuccino</label>
+                <label>
+                    <input name="latte" value="latte" type="checkbox" class="input-checkbox">Latte</label>
+                <label>
+                    <input name="iced-coffee" value="iced-coffee" type="checkbox" class="input-checkbox">Iced Coffee</label>
+                <label>
+                    <input name="americano" value="americano" type="checkbox" class="input-checkbox">Americano</label>
+            
+            <div class="form">
+                <p>Any comments or suggestions?</p>
+                    <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">Submit</button>
+            </div>
+            
+        </form>
+
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
